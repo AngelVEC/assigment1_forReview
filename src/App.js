@@ -17,6 +17,7 @@ function App() {
         <Route path="/chatroom" element={<ChatRoom />} />
         <Route path="/sumUpNum" element={<Number />} />
         <Route path="/register" element ={<Register />} />
+                  <Route path="/login" element ={<Login />} />
         <Route path="/logout" element ={<Logout />} />
         <Route path="/createChatroom" element ={<CreateChatroom />} />
       </Routes>
