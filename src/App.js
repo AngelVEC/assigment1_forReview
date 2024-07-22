@@ -7,7 +7,6 @@ import Number from './components/NumberSumUp';
 import Register from './components/Register';
 import Logout from './components/Logout';
 import CreateChatroom from "./components/CreateChatroom";
-import Login from './components/Login';
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         <Route path="/register" element ={<Register />} />
         <Route path="/logout" element ={<Logout />} />
         <Route path="/createChatroom" element ={<CreateChatroom />} />
-              <Route path="/login" element ={<Login />} />
       </Routes>
     </div>
   );
