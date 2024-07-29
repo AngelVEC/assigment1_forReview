@@ -12,6 +12,7 @@ function Topbar() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/register">Register</Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
             <Nav.Link href="/chatroom">Chat Room</Nav.Link>
             <Nav.Link href="/sumUpNum">Number</Nav.Link>
             <Nav.Link href="/logout">Logout</Nav.Link>
